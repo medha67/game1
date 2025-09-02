@@ -3,9 +3,9 @@ score=0;
 cross=true;
 let gameEnded = false;
 
-audiogo=new Audio('gameover.mp3');
-audio=new Audio('yourcolor.mp3');
-audiogo=new Audio('gameover.mp3');
+audiogo=new Audio('gameovr.mp3');
+audio=new Audio('urcolor.mp3');
+audiogo=new Audio('gameovr.mp3');
 // Start music on first user keydown to bypass autoplay restrictions
 function playMusicOnce() {
     audio.play();
@@ -17,6 +17,7 @@ document.addEventListener('keydown', function playMusicOnce() {
     audio.play();
     document.removeEventListener('keydown', playMusicOnce);
 })
+
 
 document.onkeydown = function(e){
 

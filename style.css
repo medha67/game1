@@ -16,7 +16,7 @@ body{
 }
 
 .kirlia{
-    background-image: url(kirlia.png);
+    background-image: url(Kirlia.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 200px;; height: 230px;
@@ -25,7 +25,7 @@ body{
     left: 62px;
 }
 .obstacle{
-    background-image: url(Garchomp.png);
+    background-image: url(garchomp.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 280px; height: 300px;
@@ -36,6 +36,7 @@ body{
 .animatekirlia{
     animation:kirlia 0.7s linear;
 }
+
 
 @keyframes kirlia{
     0%{bottom: 0;}
