@@ -29,7 +29,7 @@ body{
     z-index: 9999;
 }
 .obstacle{
-    background-image: url(garchomp.png);
+    background-image: url(Garchomp.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 280px; height: 300px;
