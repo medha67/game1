@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(225, 156, 190);
+    overflow: hidden;
+    
+}
+.gameContainer{
+    background-image: url(hsr.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.kirlia{
+    background-image: url(kirlia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;; height: 230px;
+    position: absolute;
+    bottom: 0;
+    left: 62px;
+}
+.obstacle{
+    background-image: url(Garchomp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px; height: 300px;
+    position: absolute;
+    bottom: 0;
+
+}
+.animatekirlia{
+    animation:kirlia 0.7s linear;
+}
+
+@keyframes kirlia{
+    0%{bottom: 0;}
+    50%{bottom: 650px;}
+    100%{bottom:0;}
+}
+.obstacleAni{
+    animation: obstacleAni 2.3s linear infinite;
+}
+.gameOver{
+    position: absolute;
+    font-size: 72px;
+    top: 20vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(158, 3, 3);
+    visibility: hidden;
+    border: 2px solid black;
+    padding: 20px 20px 20px 20px;
+    width: 100vw;
+
+}
+
+@keyframes obstacleAni{
+    0%{left: 80vw;}
+    100%{left: -12vw;}
+}
+.scoreCont{
+    position: relative;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Lucida Grande', Geneva, Verdana, sans-serif;
+    color: rgb(3, 3, 3);
+}
+
